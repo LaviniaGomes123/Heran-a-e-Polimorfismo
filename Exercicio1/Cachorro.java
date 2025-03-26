@@ -6,10 +6,6 @@ public class Cachorro extends Animal {
         super(nome);
     }
 
-    public Cachorro() {
-        super();
-    }
-
     @Override
     public void fazerSom() {
         super.fazerSom();
