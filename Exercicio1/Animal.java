@@ -7,18 +7,7 @@ public class Animal {
         this.nome = nome;
     }
 
-    public Animal(){
-    }
-
     public void fazerSom(){
-        System.out.println("Som generico de animal: ");
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
+        System.out.println("Som generico de animal: "+ nome);
     }
 }
